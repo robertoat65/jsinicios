@@ -9,7 +9,10 @@ edad = prompt("Introduce tu edad")
 if (edad > 17) {
     nombre = prompt("Introduce tu nombre")
     apellido = prompt("Introduce tu apellido")
-    document.write(`Hola ${nombre} ${apellido}`)    
+    document.write(`Hola ${nombre} ${apellido}`)
 } else {
     document.write("Lo siento no eres mayor de edad!")
 }
+
+
+
